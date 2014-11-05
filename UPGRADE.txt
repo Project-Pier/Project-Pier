@@ -47,5 +47,3 @@ Appendix A. Upgrade directories
  library	 
  public	 
  tools
-
-	
