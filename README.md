@@ -40,11 +40,11 @@ them.  They are all licensed under various compatible Open Source licenses.
 ## Upgrading
 
 If you are upgrading an existing ProjectPier installation,
-see **[UPGRADE.txt](../master/UPGRADE.txt)** for an upgrade procedure.
+see [upgrade.txt](../master/upgrade.txt) for an upgrade procedure.
 
 ## Installation
 
-See **[INSTALL.txt](../master/INSTALL.txt)**
+See [INSTALL.txt](../master/INSTALL.txt)
 
 ### Enabling InnoDB Support
 
