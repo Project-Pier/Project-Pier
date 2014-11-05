@@ -84,6 +84,6 @@ The following base languages are available:
 
 ProjectPier is an Open Source project management and collaboration
 tool that you can install on your own server. It is released under the
-terms of the Gnu Affero General Public License (AGPL) (see LICENSE for details).
+terms of the Gnu Affero General Public License (AGPL) (see [LICENSE](../blob/master/LICENSE) for details).
 
 [http://www.projectpier.org]
