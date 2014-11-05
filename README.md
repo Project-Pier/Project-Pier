@@ -1,6 +1,6 @@
 # Project-Pier
 
-**ProjectPier** is a *Free, Open-Source, PHP application* for managing tasks, projects and teams through an intuitive web interface. ( [http://www.projectpier.org] )
+**ProjectPier** is a *Free, Open-Source, PHP application* for managing tasks, projects and teams through an intuitive web interface. ( [http://www.projectpier.org](http://www.projectpier.org) )
 
 ## Reporting Bugs
 
@@ -33,32 +33,34 @@ If you do not have these installed on a server or your personal computer,
 you can visit the sites below to learn more about how to download and install
 them.  They are all licensed under various compatible Open Source licenses.
 
-- PHP    : http://www.php.net/
-- MySQL  : http://www.mysql.com/
-- Apache : http://www.apache.org/
+- PHP    : [http://www.php.net/](http://www.php.net/)
+- MySQL  : [http://www.mysql.com/](http://www.mysql.com/)
+- Apache : [http://www.apache.org/](http://www.apache.org/)
 
 ## Upgrading
 
 If you are upgrading an existing ProjectPier installation,
-see **UPGRADE.txt** for an upgrade procedure.
+see **[UPGRADE.txt](../blob/master/UPGRADE.txt)** for an upgrade procedure.
 
 ## Installation
 
-See **INSTALL.txt**
+See **[INSTALL.txt](../blob/master/INSTALL.txt)**
 
 ### Enabling InnoDB Support
 
 Some installations of MySQL don't support *InnoDB* by default.  The ProjectPier installer
 will tell you if your server is not configured to support *InnoDB*. This is easy to fix:
 
-1. Open your MySQL options file, the file name is my.cnf (Linux) - usually at /etc/my.cnf
-   or my.ini (Windows) - usually at c:/windows/my.ini.  If you are using the Uniform Server
-   on Windows, the file will be named 'my-small' and will need to be edited with a unix
-   compatible editor such as SublimeText, Atom, Vim, ...
-2. Comment the skip-innodb line by adding # in front of it (like ```#skip-innodb``` ).
+1. Open your MySQL options file, the file name is 
+   ```my.cnf``` (Linux) - usually at ```/etc/my.cnf```
+   or
+   ```my.ini``` (Windows) - usually at ```c:/windows/my.ini```
+   If you are using the Uniform Server on Windows, the file will be named ```my-small``` 
+   and will need to be edited with a unix compatible editor such as *SublimeText, Atom, Vim, ...*
+2. Comment the ```skip-innodb``` line by adding ```#``` in front of it (like ```#skip-innodb``` ).
 3. It would also be good to increase ```max_allowed_packet``` to ensure that
-   you'll be able to upload files larger than 1MB. Just add this
-   line below #skip-innodb line:
+   you'll be able to upload files larger than 1MB. 
+   Just add this line below the ```#skip-innodb``` line:
 
    ```php
    set-variable = max_allowed_packet=64M
@@ -82,8 +84,8 @@ The following base languages are available:
 
 ## About ProjectPier
 
-ProjectPier is an Open Source project management and collaboration
-tool that you can install on your own server. It is released under the
-terms of the Gnu Affero General Public License (AGPL) (see [LICENSE](../blob/master/LICENSE) for details).
+ProjectPier is an Open Source project management and collaboration tool that you can install on your own server. 
+It is released under the terms of the Gnu Affero General Public License (AGPL) 
+(see [LICENSE](../blob/master/LICENSE) for details).
 
-[http://www.projectpier.org]
+[http://www.projectpier.org](http://www.projectpier.org)
